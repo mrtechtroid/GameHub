@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTT One</title>
+    <link rel="stylesheet" href="https://mtt.one/v5/v5_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="/https://mtt.one/assets/mtt-favicon.ico" />
+
+    <meta name="title" content="MTT One - A hub of all projects by MTT.">
+    <meta name="description" content="A hub of all projects by MTT.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="31 days">
+    <meta name="author" content="Mr Techtroid">
+    <link rel="icon" type="image/x-icon" href="https://mtt.one/assets/mtt_favicon.ico">
+    <!-- <meta http-equiv="refresh" content="0;url=/v4/" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPN8JSN6DJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KPN8JSN6DJ');
+    </script>
+    <style>
+        #container {
+            min-height: 80vh;
+            /* background: rgba( 255, 255, 255, 0.25 ); */
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+
+        .skill_card:hover {
+            filter: grayscale(1);
+        }
+        body{
+            background-color: #060a0a !important;
+            color:rgb(255, 255, 255) !important;
+            padding:0px;
+            cursor: default;
+        }
+        .game_card{
+            width:300px;
+            border: grey 2px solid;
+            border-radius:10px;
+            overflow:hidden;
+            height:125px;
+            margin:10px;
+        }
+        .game_card:hover{
+            filter:grayscale(0.8);
+            /* size:1.2; */
+        }
+    </style>
+</head>
+
+<body style="display: flex;flex-direction: column;align-items: center;justify-content: center;width:100vw;min-height:100vh;background-color: black;">
+    <div id="container" class="card" style="border:2px #122235 solid;border-radius: 10px;width:95vw;min-height:95vh;">
+        <div style="display: flex;flex-direction: column;align-items: center">
+            <a href="https://mtt.one" style="margin:5px;padding:5px;text-decoration: none;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: center;font-size: 50px;">
+                <img style="width:20vw;min-width: 300px;" src="/assets/gamehub.png" alt="MTT One" />
+            </a>
+            <center style="width:30vw;font-size: 12px;min-width: 300px;"><span>A Classic Game Site</span>
+            </center>
+            <br><br>
+            <!-- <hr style="width: 100%;" color="black"> -->
+            <div style="display: flex;flex-direction: row;flex-wrap:wrap;justify-content: center;">
+                <div class="game_card">
+                    <a href="/2048/">
+                        <img src="/assets/2048.png" style="width: 100%;">
+                    </a>
+                </div>
+                <div class="game_card">
+                    <a href="/soduku/">
+                        <img src="/assets/soduku.png" style="width: 100%;">
+                    </a>
+                </div>
+            </div>
+            <br><br>
+            
+            <center style="width:30vw;font-size: 12px;min-width: 300px;"><span>(C) Copyright 2024 GameHub by MTT One<br>Say Hello: gamehub@mtt.one<br>All Games released under GameHub are licensed under MIT License.</span>
+            </center>
+            <center><a href = "terms.html" style="color:white;font-size:12px;">Terms of Service</a></center>
+        </div>
+    </div>
+</body>
+
+</html>
